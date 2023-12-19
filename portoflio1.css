@@ -1,0 +1,154 @@
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left:600px;
+    margin-top: -400px;
+    margin-bottom: 400px;
+}
+span{
+  color: rgb(5, 98, 5);
+}
+
+body{
+    background-color: rgb(1, 1, 36);
+    
+}
+
+h1 :hover{
+     color:skyblue;
+     font-size: 120px;
+}
+
+
+.img1{
+    display: block;
+    margin-bottom: -390px;
+    width: 500px;
+    border: 15px solid rgb(3, 97, 3);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 100px;
+    border-width: 10px;
+    margin-bottom: -300px;
+    border-top: 50px;
+    box-shadow: 0px 5px 15px 3px    skyblue;
+    
+}
+
+.img1:hover{
+    box-shadow: -10px 0px 20px 5px skyblue;
+    transform: scale(1.1);
+    
+    
+}
+
+.cv{
+    width: 100px;
+    height: 50px;
+    padding: 1px;
+    margin-top: -300px;
+    margin-left: 400px;
+    border-radius: 50px;
+    background-color:rgb(2, 63, 2);
+    color: white    ;
+    
+}
+
+.cv:hover{ 
+    width: 400px;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    margin-right: -150px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 30px;
+    animation: changecolor 3s ease-in;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+.ab{
+  margin-top: 300px;
+  margin-right: 600px;
+  background-color: rgb(2, 63, 2);
+  font-size: 20px;
+  border-radius: 40px;
+  padding: 30px;
+  color: burlywood;
+  font-family: serif;
+  font-style: italic;
+  }
+
+.aboutme{
+     color: rgb(2, 63, 2);
+
+}
+.pop1 {
+  background-color: rgb(14,3,67);
+  background: linear-gradient(106deg, rgba(14,3,67,0.9588414634146342) 49%, rgba(42,85,50,1) 77%, rgba(11,124,138,1) 90%);
+   color: white;
+}
+.ab:hover{
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  animation: changecolor 3s ease-in;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  background-color:rgb(14,3,67);
+  background: linear-gradient(106deg, rgba(14,3,67,0.9588414634146342) 49%, rgba(42,85,50,1) 77%, rgba(11,124,138,1) 90%);
+}
+
+.myheader{
+  background-color:rgb(14,3,67);
+  background: linear-gradient(106deg, rgba(14,3,67,0.9588414634146342) 49%, rgba(42,85,50,1) 77%, rgba(11,124,138,1) 90%);;
+ 
+}
+
+.btngroup button{
+  display: list-item;
+  }
+
+.link1{
+  color:white;
+}
+
+@keyframes changecolor {
+      0% {
+        background-color: rgb(2, 63, 2);
+    
+
+      }
+      50%{
+        background-color: rgb(1, 1, 36);
+      }
+
+      100%{
+        background-color:rgb(55, 123, 150);
+      }
+
+      0%{
+        color:white;
+      }
+      50%{
+        color: black;
+      }
+
+      100%{
+        color: white;
+      }
+      
+      0%{
+        border-color: rgb(3, 97, 3);
+      }
+
+      100%{
+        border-color: rgb(3, 97, 3);
+    }
+
+ }
+
+
+    
